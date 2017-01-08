@@ -3,8 +3,16 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.1'
+# Use BCrypt to create digests of passwords and cookies
 gem 'bcrypt', '3.1.11'
+# Use Faker to generate extra users for the index page
+gem 'faker', '1.6.6'
+# Use Bootstrap to make it look pretty
 gem 'bootstrap-sass', '3.3.6'
+# Use will_paginate for users index pagination
+gem 'will_paginate', '3.1.0'
+# Configure will_paginate to use Bootstrap's styling
+gem 'bootstrap-will_paginate', '0.0.10'
 # Use Puma as the app server
 gem 'puma', '3.4.0'
 # Use SCSS for stylesheets

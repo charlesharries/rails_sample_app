@@ -58,7 +58,7 @@ Rails.application.configure do
   config.action_mailer.perform_caching = false
 
   # Configure the mailer to work with SendGrid
-  config.action_mailer.raise_deliver_errors = true
+  config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   host = "sortoftwitter.herokuapp.com"
   config.action_mailer.default_url_options = { host: host }

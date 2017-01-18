@@ -13,6 +13,12 @@ gem 'bootstrap-sass', '3.3.6'
 gem 'will_paginate', '3.1.0'
 # Configure will_paginate to use Bootstrap's styling
 gem 'bootstrap-will_paginate', '0.0.10'
+# Use CarrierWave for image uploading
+gem 'carrierwave', '0.11.2'
+# Use mini_magick for image resizing
+gem 'mini_magick', '4.5.1'
+# Use fog for image upload in production
+gem 'fog', '1.38.0'
 # Use Puma as the app server
 gem 'puma', '3.4.0'
 # Use SCSS for stylesheets
